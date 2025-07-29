@@ -29,5 +29,11 @@ namespace WebApplication1.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet(Name ="GetId")]
+        public int GetId()
+        {
+            return 1;
+        }
     }
 }
