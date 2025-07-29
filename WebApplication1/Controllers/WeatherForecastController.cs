@@ -33,7 +33,7 @@ namespace WebApplication1.Controllers
         [HttpGet(Name ="GetId")]
         public int GetId()
         {
-            var a = 10;
+            var b = 20;
             return 1;
         }
     }
